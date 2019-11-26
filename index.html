@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sally Student Resume in React</title>
+</head>
+<body>
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <script type="text/babel">
+            
+        /// React code goes here
+            
+        const appRoot = document.querySelector('#application-root');
+
+        function App() {
+        return (
+            <div>
+            <header>
+                <h1>Sally Student, B.A.</h1>
+            </header>
+  
+            <main>
+        
+            <section>
+                <h2>Employment history</h2>
+
+                <h3>Bouncetech Industries Inc.</h3>
+                <p><strong>WEB DEVELOPER</strong> <em>(May 2009 - Current)</em></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <h3>Bouncetech Industries Inc.</h3>
+                <p><strong>JUNIOR WEB DEVELOPER</strong> <em>(October 2007 - May 2009)</em></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <h3>Bouncetech Industries Inc.</h3>
+                <p><strong>JUNIOR BOUNCE ENGINEER</strong> <em>(October 2007 - May 2009)</em></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <h3>Ball-Mart Stores Inc.</h3>
+                <p><strong>JUNIOR BOUNCE ENGINEER</strong> <em>(September 2006 - September 2007)</em></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <h3>Ball-Mart Stores Inc.</h3>
+                <p><strong>SENIOR BALL ASSOCIATE</strong> <em>(October 2004 - August 2006)</em></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <h3>Ball-Mart Stores Inc.</h3>
+                <p><strong>JUNIOR BALL ASSOCIATE</strong> <em>(May 2004 - September 2004)</em></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                
+            </section>
+        
+            <section>
+                <h2>Education</h2>
+                <ul>
+                    <li>Riverdale High School, 2002 - 2006</li>
+                    <li>Riverdale Community College, 2007 - 2009</li>
+                    <li>Riverdale State College, 2009 - 2011</li>
+                </ul>
+            </section>
+        
+            <section>
+                <h2>Contact me</h2>
+                <img src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg" alt="A photo of Ilana from Broad City, alias Sally Student." height="350" />
+                <address>
+                    <p>My name is Sally Student, and I'm a web developer at Bouncetech Industries. Want to work together? <a href="mailto:sally@sallystudent.com">Shoot me an email</a>, or give me a phone call at 707-394-8358.</p>
+                </address>
+            </section>
+        
+            </main>
+            
+            <footer>
+                <p>Copyright 2019 Sally B. Student.</p>
+            </footer>
+            </div>
+            );
+        };
+
+        ReactDOM.render(<App />, appRoot);
+
+
+
+    </script>
+
+    <div id="application-root"></div>
+    
+</body>
+</html>
